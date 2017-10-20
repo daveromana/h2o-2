@@ -1,6 +1,6 @@
 # Demo using R scripts to compare with H2O
 # To invoke, need R 3.0.1 as of now
-# R -f H2OTestComparison.R
+#  R -f H2OTestComparison.R
 library(randomForest)
 
 prostate.data = read.csv("../smalldata/logreg/prostate.csv", header = TRUE)
